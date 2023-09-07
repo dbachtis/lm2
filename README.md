@@ -9,3 +9,5 @@ In more detail:
 4) "magn.plt" will draw the magnetization of the renormalized L'=32 and original L=32 systems so the intersection which corresponds to the fixed point will be observed.
 5) "map.plt" will draw the mappings which relate the original and the renormalized inverse temperatures. The vertical line corresponds to beta=0.440687
 6) "nu.py" calculates the critical exponent nu based on the data at two values of betas.
+
+This minimal working example has not been tested for bugs. The permitted reweighting range is additionally not verified. It is given as is for clarification of concepts behind the discussed MCRG method.
