@@ -1,0 +1,9 @@
+#!/bin/tcsh -f
+python3 block.py
+python3 reweight.py 64 0.440687 9000 0.435 0.445 0.0001 origL64b0.440687.dat origL64b0.440687.dat > enorig64.dat
+python3 reweight.py 32 0.440687 9000 0.435 0.445 0.0001 origL64b0.440687.dat blockL32b0.440687.dat > enblock32.dat
+python3 reweight.py 32 0.440687 9000 0.435 0.445 0.0001 origL32b0.440687.dat origL32b0.440687.dat> enorig32.dat
+python3 map.py > map.dat
+gnuplot magn.plt
+gnuplot map.plt
+python3 nu.py
