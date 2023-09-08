@@ -10,4 +10,4 @@ In more detail:
 5) "map.plt" will draw the mappings which relate the original and the renormalized inverse temperatures. The vertical line corresponds to beta=0.440687
 6) "nu.py" calculates the critical exponent nu based on the data at two values of betas.
 
-This minimal working example has not been tested for bugs. The permitted reweighting range is additionally not verified. It is given as is for clarification of concepts behind the discussed MCRG method.
+This minimal working example has not been tested for bugs. The permitted reweighting range is additionally not verified. It is given as is for clarification of concepts behind the discussed MCRG method. No statistical error analysis is included.
